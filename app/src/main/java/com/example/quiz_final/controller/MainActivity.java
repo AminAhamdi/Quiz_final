@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 mCurrentIndex = (--mCurrentIndex + mQuestionsBank.length) % mQuestionsBank.length;
                 updateQuestion();
-//                disableButtons();
+
             }
         });
         mQuestionTextView.setOnClickListener(new View.OnClickListener(){
